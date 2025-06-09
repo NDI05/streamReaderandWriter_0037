@@ -7,7 +7,7 @@ int main(){
     string baris;
     ofstream outfile;
 
-    outfile.open("contohFile.text");
+    outfile.open("contohFile.txt");
 
     cout << ">= Menulis File, \'q' untuk keluar" << endl;
 
@@ -21,7 +21,7 @@ int main(){
     outfile.close();
 
     ifstream infile;
-    infile.open("contohFile.text");
+    infile.open("contohFile.txt");
 
     cout << endl << ">= Membukan dan Membaca File " << endl;
 
