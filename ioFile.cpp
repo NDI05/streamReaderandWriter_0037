@@ -9,12 +9,13 @@ int main(){
 
     outfile.open("contohFile.text");
 
-    cout << ">= Menulis File, \'q'\ untuk keluar" << endl;
+    cout << ">= Menulis File, \'q' untuk keluar" << endl;
 
     while(true){
         cout << "- ";
         getline(cin, baris);
         if (baris == "q") break;
+        outfile << baris << endl;
     };
 
     outfile.close();
