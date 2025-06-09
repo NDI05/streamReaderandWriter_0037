@@ -8,4 +8,10 @@ int main(){
     ofstream outfile;
 
     outfile.open("contohFile.text");
+
+    cout << ">= Menulis File, \'q'\ untuk keluar" << endl;
+
+    while(true){
+        
+    };
 };
