@@ -9,6 +9,7 @@ int main(){
     }catch (int a){
         cout << "Pengecualian Akan Di Eksekusi" << endl;
     }catch (...){
-
+        cout << "Default Pengecualian Di Eksekusi" << endl;
     };
+    return 0;
 };
