@@ -7,7 +7,7 @@ int main(){
     cout << "Awal Program" << endl;
     try
     {
-        
+        array<int, 3> data = { 1, 2, 3 };
     }
     catch(exception& e)
     {
