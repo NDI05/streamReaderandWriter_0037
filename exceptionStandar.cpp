@@ -8,10 +8,12 @@ int main(){
     try
     {
         array<int, 3> data = { 1, 2, 3 };
+        cout <<data.at(-1)<< endl;
     }
     catch(exception& e)
     {
         cout << e.what() << endl;
     }
-    
+    cout << "Akhir Program" << endl;
+    return 0;
 };
